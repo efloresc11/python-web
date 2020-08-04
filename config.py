@@ -1,5 +1,6 @@
 from decouple import config
 
+WTF_CSRF_TIME_LIMIT= None
 class Config:
     SECRET_KEY = 'codigofacilito'
 
